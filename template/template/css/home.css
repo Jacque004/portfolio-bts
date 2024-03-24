@@ -1,0 +1,220 @@
+body{
+     margin: 0;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     background-color: #F7F7F2;
+     height: 1762px;
+}
+
+header{
+     height: 110px;
+     width: 100%;
+     background: #FFF;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.container{
+     height: 100px;
+     width: 100%;
+}
+.logo{
+     height: 70.08px;
+     width: 300.31px;
+     margin-left: 75px;
+     margin-top: 15px;
+     transition: transform 0.3s;
+}
+.logo:hover{
+     transform: scale(1.03);
+}
+a{
+     text-decoration: none;
+     color: #01737b;
+}
+.lien{
+     margin-top: -45px;
+}
+#langue{
+     margin-left: 680px;
+     height: 34px;
+     width: 98px;
+     color: #000;
+     font-family: Inter;
+     font-size: 28px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 33.6px;
+}
+.autre{
+     width: 19px;
+     height: 19px;
+     margin-left: 1103px;
+     margin-top: -25px;
+}
+#conn{
+     margin-left: 1200px;
+     transition: .2s ease-in;
+     display: inline-flex;
+     padding: 10px 28px 11px 28px;
+     justify-content: center;
+     align-items: center;
+     border-radius: 30px;
+     border: 2px solid #000;
+     background: var(--blanc, #FFF);
+     color: #000;
+     font-family: Inter;
+     font-size: 28px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 33.6px;
+     
+}
+.connexion{
+     
+     margin-top: -40px;
+     width: 195px;
+     height: 55px;
+     
+}
+#conn:hover{
+     background-color: #01737b;
+     color: #FFF;
+     border: none;
+}
+.tag{
+     display: flex;
+     margin-top: 25px;
+     color: var(--color-texte, #01737b);
+     font-family: Inter;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 43.2px; 
+}
+
+.projets,.Catalogue,.Historique{
+     margin: 44px;
+     transition: transform 0.3s;
+}
+.projets:hover,.Catalogue:hover,.Historique:hover{
+     transform: scale(1.03);
+}
+
+.creation{
+     display: flex;
+     justify-content: center; 
+    align-items: center;
+}
+
+.c1,.c2,.c3{
+     display: flex;
+     width: 85px;
+     height: 85px;
+     padding: 88px 95px 89px 95px;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+     border-radius: 30px;
+     background: #FFF;
+     box-shadow: 0px 12px 30px 8px rgba(0, 0, 0, 0.15);
+     margin: 80px;
+     transition: transform 0.3s;
+}
+.c1:hover,.c2:hover,.c3:hover{
+     transform: scale(1.06);
+}
+
+#titre{
+     margin-top: 50px;
+     margin-left: -600px;
+     color: var(--color-texte, #01737b);
+     font-family: Inter;
+     font-size: 60px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+.photo{
+     margin-top: 100px;
+     display: flex;
+     
+}
+#fleche1{
+     display: flex;
+     width: 60px;
+     height: 60px;
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+     border-radius: 50px;
+     border: 2px solid var(--black, #000);
+     background: var(--white, #FEFEFE);
+     transition: transform 0.3s;
+}
+#fleche2{
+     width: 40px;
+     height: 40px;
+     flex-shrink: 0;
+     display: flex;
+     width: 60px;
+     height: 60px;
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+     border-radius: 50px;
+     border: 2px solid var(--black, #000);
+     background: var(--white, #FEFEFE);
+     transition: transform 0.3s;
+}
+#fleche1:hover,#fleche2:hover{
+     transform: scale(1.06);
+}
+.f1,.f2{
+     margin-top: 170px;
+}
+.f1{
+     margin-left: 20px;
+}
+.f2{margin-right: 20px;}
+.p1,.p2,.p3{
+     display: flex;
+     width: 85px;
+     height: 85px;
+     padding: 88px 95px 89px 95px;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+     background: #FFF;
+     box-shadow: 0px 12px 30px 8px rgba(0, 0, 0, 0.15);
+     margin: 60px;
+     transition: transform 0.3s;
+}
+.p1:hover,.p2:hover,.p3:hover{
+     transform: scale(1.06);
+}
+#x1,#x2,#x3{
+     width: 310px;
+     height: 297px;
+}
+footer{
+     display: flex;
+     margin-top: 190px;
+     height: 262px;
+     width: 100%;
+     background-color: #01737b;
+     color: #FFF;
+     flex-shrink: 0;
+}
+#r,#r2,#r3,#r4{
+     width: 180px;
+     height: 172px;
+     flex-shrink: 0;
+     margin: 80px;
+     margin-top: 50px;
+   
+}
+
+

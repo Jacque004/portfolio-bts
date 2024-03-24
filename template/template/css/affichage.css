@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #F7F7F2;
+    height: 1762px;
+}
+
+header{
+    height: 110px;
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.container{
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    height: 70.08px;
+    width: 300.31px;
+    margin-left: 75px;
+    margin-top: 15px;
+    transition: transform 0.3s;
+}
+.logo:hover{
+    transform: scale(1.03);
+}
+a{
+    text-decoration: none;
+    color: #01737b;
+}
+.lien{
+    margin-top: -45px;
+}
+#langue{
+    margin-left: 680px;
+    height: 34px;
+    width: 98px;
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+}
+.autre{
+    width: 19px;
+    height: 19px;
+    margin-left: 1103px;
+    margin-top: -25px;
+}
+#conn{
+    margin-left: 1200px;
+    transition: .2s ease-in;
+    display: inline-flex;
+    padding: 10px 28px 11px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: var(--blanc, #FFF);
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+    
+}
+.connexion{
+    
+    margin-top: -40px;
+    width: 195px;
+    height: 55px;
+    
+}
+#conn:hover{
+    background-color: #01737b;
+    color: #FFF;
+    border: none;
+}
+
+#Description,#log,#log1,#log2,#log3,#diff,#suivi{
+    margin-left: 60px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 61px;
+    background: #FFF;
+    box-shadow: 0px 12px 30px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+    color: var(--noir, #000);
+    font-family: Jacques Francois;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+  }
+  #Description:hover,#log:hover,#log1:hover,#log2:hover,#log3:hover,#diff:hover,#suivi:hover{
+     transform: scale(1.03);
+  }
+  #x1,#x2,#x3{
+    width: 310px;
+    height: 297px;
+}
+footer{
+    display: flex;
+    margin-top: 190px;
+    height: 262px;
+    width: 100%;
+    background-color: #01737b;
+    color: #FFF;
+    flex-shrink: 0;
+}
+#r,#r2,#r3,#r4{
+    width: 200px;
+    height: 172px;
+    flex-shrink: 0;
+    margin: 80px;
+    margin-top: 50px;
+}
+#titre{
+    margin-top: 220px;
+    margin-right: 700px;
+    width: 555px;
+    color: #01737b;
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.10);
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: transform 0.3s;
+    text-align: center;
+}
+#titre:hover{
+    transform: scale(1.03);
+}
+.t{
+    margin-top: -190px;
+    margin-left: 700px;
+    text-align: center;
+}
+#number{
+    color: #000;
+
+    /* H1 */
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62.4px; /* 120% */
+}
+
+
